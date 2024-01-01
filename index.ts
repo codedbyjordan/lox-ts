@@ -1,1 +1,3 @@
-console.log("Hello via Bun!");
+import { Lox } from "./src/Lox";
+
+Lox.runPrompt();
